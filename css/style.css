@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Styling the body element i.e Color, Font, Aligment*/
+body{
+/*    background-color: #b2b67f;*/
+    background-color: #268bbd;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.title {
+    margin-top: 5vh;
+    border-style:groove;
+    border-color:antiquewhite;
+    width: 50wh;
+}
+/*Styling the Form (Color, Padding, Shadow)*/
+#form {
+    display: block;
+    background-color: rgb(164, 196, 213);
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+#name {
+    border-radius: 10px;
+    box-shadow: 5px 10px 5px #777;
+}
+#email {
+    border-radius: 10px;
+    box-shadow: 5px 10px 5px #777;
+}
+#age {
+    border-radius: 10px;
+    box-shadow: 5px 10px 5px #777;
+}
+#role {
+    border-radius: 10px;
+    box-shadow: 5px 10px 5px #777;
+}
+#comment {
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px #777;
+
+}
+/*Styling form-control class)*/
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+/*Styling form-control Label*/
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+/*Styling form-control input, select, textarea*/
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width:95%;
+}
+/*Styling form-control Radio button and Checkbox*/
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+/* Styling Button*/
+button {
+    background-color: #268bbd;
+    border: 1px solid #777;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px #777;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+
+
+
